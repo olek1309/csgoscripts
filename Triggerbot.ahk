@@ -1,6 +1,6 @@
 ﻿Threshold = 20
 
-*~$t::
+*~$y::
 MouseGetPos, MouseX, MouseY
 PixelGetColor, Color1, (MouseX+2), (MouseY+2)
 StringSplit, Colorz, Color1
@@ -11,7 +11,7 @@ Color1B += 0
 Color1G += 0
 Color1R += 0
 
-while (GetKeyState("t", "P"))
+while (GetKeyState("y", "н"))
     {
         BlockInput, MouseMove
         sleep 1
